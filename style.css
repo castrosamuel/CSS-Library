@@ -1,0 +1,66 @@
+.btn{
+    background-color:limegreen;
+    box-shadow:3px 3px gray;
+    border:0px;
+    padding:10px;
+    margin:20px;
+    color:white;
+    font-weight: bold;
+}
+.navbar{
+    background-color: azure;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row {
+    display:flex;
+}
+.col {
+    flex:1;
+    margin:5px;
+    padding:10px;
+    border:2px solid gray;
+    border-radius:10px;
+}
+.col-2 {
+    flex:2;
+    margin:5px;
+    padding:10px;
+    border:2px solid gray;
+    border-radius:10px;
+}
+
+.navbar h1, .navbar ul {
+    margin: 0 10px;
+} 
+
+.navbar ul li{
+    display:inline-block;
+    vertical-align: middle;
+    list-style: none;
+    margin: 0 20px;
+}
+
+#container h3 {
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a {
+    text-decoration:none;
+    color:black;
+}
+
+p{
+    text-indent: 20px;
+}
+
+.active{
+    font-weight:bold;
+}
+
+.navbar h1 {
+    color:blueviolet;
+}
